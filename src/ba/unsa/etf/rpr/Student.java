@@ -12,5 +12,9 @@ public class Student {
         // salje svakom predmetu u nizu string imeprezime i int index;
     }
 
+    void UpisiNaredniSemestar (Predmet ... nizizbornih) {
+        //azurira niz predmeta za naredni semestar
+    }
+
 
 }
