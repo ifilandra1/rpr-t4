@@ -9,5 +9,19 @@ public class Student {
         this.brindexa=brindexa;
     }
 
+    public String getImeprezime() {
+        return imeprezime;
+    }
 
+    public void setImeprezime(String imeprezime) {
+        this.imeprezime = imeprezime;
+    }
+
+    public int getBrindexa() {
+        return brindexa;
+    }
+
+    public void setBrindexa(int brindexa) {
+        this.brindexa = brindexa;
+    }
 }
