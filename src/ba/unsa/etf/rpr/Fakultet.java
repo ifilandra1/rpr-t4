@@ -14,6 +14,9 @@ public class Fakultet {
     void DodajPredmet(Predmet p) {
         predmeti.add(p);
     }
+    void DodajUpis(Upis u) {
+        upisani.add(u);
+    }
 
 
 
