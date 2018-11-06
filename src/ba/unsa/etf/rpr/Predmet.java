@@ -23,4 +23,6 @@ public class Predmet {
     public void setEcts(int ects) {
         this.ects = ects;
     }
+
+
 }
