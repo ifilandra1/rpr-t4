@@ -8,5 +8,9 @@ public class PlanStudija {
     String naziv;
     Map<Integer, Set<Predmet>> mapa;
 
+    public PlanStudija(String naziv, Map<Integer, Set<Predmet>> mapa) {
+        this.naziv=naziv;
+        this.mapa=mapa;
+    }
 
 }
