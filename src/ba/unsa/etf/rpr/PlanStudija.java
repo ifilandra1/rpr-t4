@@ -13,4 +13,19 @@ public class PlanStudija {
         this.mapa=mapa;
     }
 
+    public String getNaziv() {
+        return naziv;
+    }
+
+    public void setNaziv(String naziv) {
+        this.naziv = naziv;
+    }
+
+    public Map<Integer, Set<Predmet>> getMapa() {
+        return mapa;
+    }
+
+    public void setMapa(Map<Integer, Set<Predmet>> mapa) {
+        this.mapa = mapa;
+    }
 }
