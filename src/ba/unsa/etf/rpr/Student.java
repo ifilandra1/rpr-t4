@@ -24,4 +24,9 @@ public class Student {
     public void setBrindexa(int brindexa) {
         this.brindexa = brindexa;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
