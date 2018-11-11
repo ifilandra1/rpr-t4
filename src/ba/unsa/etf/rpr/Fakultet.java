@@ -21,10 +21,14 @@ public class Fakultet {
 
 
     void IspisiStudentaSaFakulteta(Student s){
-        Iterator<Upis> it =  upisani.iterator();
+        Iterator<Student> it =  studenti.iterator();
 while(it.hasNext()){
 
-    if(s.equals(it.next().getStudent())) it.remove();
+    if(s.equals(it.next())) it.remove();
+}
+Iterator<Upis> it2=upisani.iterator();
+while(it2.hasNext()) {
+    if(s.equals(it2.next().getStudent())) it2.remove();
 }
     }
 
