@@ -1,6 +1,7 @@
 package ba.unsa.etf.rpr;
 
 
+import java.util.Iterator;
 import java.util.Set;
 
 public class Fakultet {
@@ -19,6 +20,13 @@ public class Fakultet {
     }
 
 
+    void IspisiStudentaSaFakulteta(Student s){
+        Iterator<Upis> it =  upisani.iterator();
+while(it.hasNext()){
+
+    if(s.equals(it.next().getStudent())) it.remove();
+}
+    }
 
 
 
